@@ -2,6 +2,56 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+html {
+  background: url(assets/background_.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 90px;
+  color: white;
+  font-family: "Didot", Times, serif;
+  /* text-shadow: 2px 2px 4px #000000; */
+  text-shadow: 2px 2px 4px #363532;
+}
+
+h2 {
+  text-align: center;
+  font-size: 65px;
+  color: white;
+  font-family: "Didot", Times, serif;
+  /* text-shadow: 2px 2px 4px #000000; */
+  text-shadow: 2px 2px 4px #363532;
+}
+
+h3 {
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  font-family: "Didot", Times, serif;
+  /* text-shadow: 2px 2px 4px #000000; */
+  text-shadow: 2px 2px 4px #363532;
+}
+
 canvas {
   display: block;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
 }
